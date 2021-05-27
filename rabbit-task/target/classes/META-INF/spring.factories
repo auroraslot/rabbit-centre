@@ -1,0 +1,4 @@
+# auto configure
+# SpringBoot自动装配一个类，该类需要有自动装配的注解
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+pers.tz.rabbit.task.autoconfigure.JobProcessorAutoConfiguration

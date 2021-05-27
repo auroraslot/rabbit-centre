@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "elastic.job.zk",
+      "type": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "elastic.job.zk.base-sleep-time-milliseconds",
+      "type": "java.lang.Integer",
+      "description": "等待重试的间隔时间的初始值 单位：毫秒",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "elastic.job.zk.connection-timeout-milliseconds",
+      "type": "java.lang.Integer",
+      "description": "zk 连接超时时间 单位：毫秒",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "elastic.job.zk.digest",
+      "type": "java.lang.String",
+      "description": "连接Zookeeper的权限令牌 缺省为不需要权限验证",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties"
+    },
+    {
+      "name": "elastic.job.zk.max-retries",
+      "type": "java.lang.Integer",
+      "description": "zk 最大重试次数",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "elastic.job.zk.max-sleep-time-milliseconds",
+      "type": "java.lang.Integer",
+      "description": "等待重试的间隔时间的最大值 单位：毫秒",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "elastic.job.zk.namespace",
+      "type": "java.lang.String",
+      "description": "zk 命名空间",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties"
+    },
+    {
+      "name": "elastic.job.zk.server-lists",
+      "type": "java.lang.String",
+      "description": "zk 地址列表 如: host1:2181,host2:2181",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties"
+    },
+    {
+      "name": "elastic.job.zk.session-timeout-milliseconds",
+      "type": "java.lang.Integer",
+      "description": "zk 会话超时时间 单位：毫秒",
+      "sourceType": "pers.tz.rabbit.task.autoconfigure.JobZookeeperProperties",
+      "defaultValue": 60000
+    }
+  ],
+  "hints": []
+}

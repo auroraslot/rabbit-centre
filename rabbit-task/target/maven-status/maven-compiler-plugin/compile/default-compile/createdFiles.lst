@@ -1,0 +1,7 @@
+pers\tz\rabbit\task\annotation\EnableElasticJob.class
+pers\tz\rabbit\task\annotation\ElasticJobConfig.class
+pers\tz\rabbit\task\enums\ElasticJobTypeEnum.class
+pers\tz\rabbit\task\parser\ElasticJobConfParser.class
+pers\tz\rabbit\task\autoconfigure\JobZookeeperProperties.class
+META-INF\spring-configuration-metadata.json
+pers\tz\rabbit\task\autoconfigure\JobProcessorAutoConfiguration.class
